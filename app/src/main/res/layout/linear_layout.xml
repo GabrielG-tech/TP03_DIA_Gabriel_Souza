@@ -6,8 +6,7 @@
     android:layout_height="match_parent"
     android:gravity="center"
     android:orientation="vertical"
-    android:background="@drawable/ic_main_launcher_backgroud"
-    tools:context=".MainActivity">
+    android:background="@drawable/ic_main_launcher_backgroud">
 
     <TextView
         android:id="@+id/tv_app_name"
@@ -35,11 +34,13 @@
             android:layout_height="wrap_content"
             android:orientation="vertical"
             android:padding="16dp">
+
             <TextView
                 android:layout_width="match_parent"
                 android:layout_height="wrap_content"
                 android:gravity="center"
                 android:text="Bem-Vindo"
+                android:layout_marginBottom="4dp"
                 android:textColor="#363A43"
                 android:textSize="30sp"
                 android:textStyle="bold"/>
@@ -50,6 +51,14 @@
                 android:layout_height="wrap_content"
                 android:layout_margin="8dp"
                 android:hint="Digite seu nome"
+                android:inputType="textPersonName"/>
+
+            <EditText
+                android:id="@+id/password_input"
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:layout_margin="8dp"
+                android:hint="Digite sua senha"
                 android:inputType="textPersonName"/>
 
 
